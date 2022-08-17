@@ -1,0 +1,78 @@
+body {
+  font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.holder {
+  margin: 50px auto 0;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.holder .sec {
+  margin: 5px auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 155px 60px 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.holder input {
+  margin: auto;
+  width: 55px;
+  height: 35px;
+  text-align: center;
+}
+
+.sec img {
+  width: 15px;
+}
+.sec select {
+  text-align: center;
+}
+
+.sec select :nth-child(1) {
+  font-weight: bolder;
+   color: grey;
+  text-align: left;
+}
+
+.answer {
+  visibility: hidden;
+  margin: 5px auto;
+}
+
+.answer p {
+  margin: 0;
+}
+
+.scale {
+  visibility: hidden;
+  margin: 5px auto 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.scale span {
+  margin-left: 10px;
+}
+
+.scale button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
